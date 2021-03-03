@@ -2,7 +2,7 @@ import React from "react";
 import Carousel from "react-bootstrap/Carousel";
 
 
-function MainContent() {
+function MainCarousel() {
     return(
         <Carousel id="MainCarousel">
             <Carousel.Item>
@@ -44,4 +44,4 @@ function MainContent() {
     )
 }
 
-export default MainContent;
+export default MainCarousel;

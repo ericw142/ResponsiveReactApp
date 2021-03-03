@@ -1,17 +1,20 @@
 import './App.css';
 import NavComponent from "./components/NavComponent";
-import MainContent from "./components/MainContent";
+import MainCarousel from "./components/MainCarousel";
+import Content from "./components/Content";
 import SideContent from "./components/SideContent";
 
 function App() {
   return (
     <div className="App">
       <NavComponent />
+
       <div className="container marginTop"> 
         <div className="row">
 
           <div className="col-md-9">
-            <MainContent />
+            <MainCarousel />
+            <Content />
           </div>
 
           <div className="col-md-3">
@@ -20,6 +23,7 @@ function App() {
 
         </div>
       </div>
+
     </div>
   );
 }
